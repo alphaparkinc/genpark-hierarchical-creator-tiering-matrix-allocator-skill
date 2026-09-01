@@ -1,0 +1,38 @@
+{
+  "name": "genpark-hierarchical-creator-tiering-matrix-allocator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Hierarchical creator tiering matrix allocator balancing mega, macro, micro, and nano influencer budget splits for optimal reach.",
+  "author": "genpark",
+  "category": "media-planning",
+  "tags": [
+    "creator-tiering",
+    "influencer-budget-allocation",
+    "nano-influencer",
+    "macro-influencer",
+    "media-mix-model"
+  ],
+  "inputs": {
+    "total_campaign_budget_usd": {
+      "type": "number"
+    },
+    "campaign_objective": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "allocation_plan_id": {
+      "type": "string"
+    },
+    "projected_total_reach": {
+      "type": "integer"
+    },
+    "blended_target_cpm_usd": {
+      "type": "number"
+    },
+    "allocation_schedule_pdf_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
